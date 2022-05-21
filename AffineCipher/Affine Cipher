@@ -1,0 +1,56 @@
+Before talking about Affine Cipher ? 
+how about a little overview about how it actually work ?
+
+1- Whats affine cipher ?
+Affine cipher is an example of monoalphabitic substitution ciphers, wherein each letter in an alphabet is mapped to its numeric equivalent
+It consists of fixing two integers a and b as they key (generally between 0 and 25) and encrypting each letter
+by another of rank returned by an affine equation (that of a straight line): y = (ax+b) modulo (26).
+
+2- The Key ?
+as i said below the key is a and b 2 numerical values 
+ we can put 3 condition on the key 
+ 
+ PGCD (a, 26) = 1 
+ a needs to be between 1 and 25
+ the b need to be between 0 and 25
+ 
+ 3 -encryption ?
+ 
+ we usually use the following function :
+ 
+ f(x) = a*x + b 
+ where x is the plain text letter and [ax+b] is the cipher text 
+ 
+ example :
+ 
+ encrypte g with the following key (7, 2)
+ 
+ 1- we search for the g position in the alphabet starting from 0 to 25 
+ g position is 6
+ 
+ f(6) = 7 * 6 + 2 = 44-26 = 18 which is R 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2- Decription ?
+ 
+ In deciphering the ciphertext, we must perform the opposite (or inverse) functions on the ciphertext to retrieve the plaintext. Once again, the first step is to convert each of the ciphertext letters into their integer values. 
+ 
+ in other words solve X !!!
+ 
+    y-b = a*x => (y-b)/a = x => a^-1( y-b) = x 
+    
+    same khdma 
+    
+    more hadra on : https://www.geeksforgeeks.org/implementation-affine-cipher/
+    how to solve a^-1 : https://www.youtube.com/watch?v=WA4nP-iPYKE&t=0s
+ 
+ 
+  
+
+
+
+
