@@ -1,0 +1,23 @@
+Hill Cipher Algorithm
+
+1- Whats Hill Cipher ?
+
+The Hill cipher is a polygraphic substitution cipher built on concepts from Linear Algebra. The Hill cipher makes use of modulo arithmetic, matrix multiplication, and matrix inverses; hence, it is a more mathematical cipher than others. The Hill cipher is also a block cipher, so, theoretically, it can work on arbitrary sized blocks.
+
+src(educative site)
+
+Encryption
+1. Convert message into pairs of 2 rows and multiple columns, number of columns is total length of message divided by 2
+2. Take a 4 letter key and convert it into 2x2 matrix
+3. Perform matrix multiplication between each row and column pair of message and 2x2 key matrix
+4. Take modulo 26 of result to obtain cipher text letter
+
+Decryption
+1. Convert message into pairs of 2 rows and multiple columns, number of columns is total length of message divided by 2
+2. Take a 4 letter key and convert it into 2x2 matrix
+3. Find determinant of the key matrix
+4. find multiplicative inverse of the determinant ofkey matrix
+5. find adjugate matrix of key matrix
+6. multiply multiplicative inverse of determinant with adjugate matrix and take mod 26 of result
+7. Perform matrix multiplication between each row and column pair of message and 2x2 key matrix
+8. Take modulo 26 of result to obtain cipher text letter
