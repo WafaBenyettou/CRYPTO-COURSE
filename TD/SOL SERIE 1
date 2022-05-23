@@ -1,0 +1,91 @@
+Solution de la serie CRYPTO:
+
+
+NOTE : for the algorithms implementation you can find some in other folders 
+
+
+
+-------------------------------------EXO1-------------------------------------
+
+1- 
+CLE = UNIX 
+PLAINTEXT = MAC/OS 
+        a- remove useless char such as the "/"
+        b- the key should be in the same length as the plaintext meaning :
+        length(UNIX) = length(MACOS) 
+        if false then we need to append the first char of the key at the end of the key 
+        result UNIXU
+        length(UNIXU) = length(MACOS)
+        b- using vignere matrix the result will be : 
+        CipherText =  GNKLM 
+        
+2- 
+CLE= EBOLA 
+CIPHERTEXT= TSCEEKFF
+PLAINTEXT = PROTEGER
+
+
+-----------------------------------------EX0-2-3-4-----------------------------------
+
+                                    CHECK OTHER FOLDERS
+                                    
+                                    
+                                    
+------------------------------------EXO5---------------------------   
+
+1- using polybe cipher we can find that :
+12 21 35 42 45 42 51 54 = DJIBOUTI 
+Cipher used = delastelle
+
+how?
+
+1 2 2 1 3 5 4 2
+4 5 4 2 5 1 5 4
+
+donc plaintext = 14 25 24 12 35 51 45 24 = DJIBOUTI
+
+delastelle est un cipher qui est basee sur la subtitusion et la transposition
+
+4- caree polybe pourarabic 
+
+we choose alphabit that has the same not9 such as  tha2 and ta2
+
+
+
+------------------------------------EXO5---------------------------   
+
+------------------PART 2--------------------------
+----------------EXO1---------------------
+CIPHER = QKJ OZHRKJ KXXKIWKJ JK JZXB HKSHZTYKKJ E EQSKH KB ZXB OEWB HZTBK GKHJ QK JTA
+
+PLAINTEXT = LES FORCES ENNEMIES SE SONT REGROUPEES A ALGER ET ONT FAIT ROUTE VERS LE SUD
+
+
+
+-------------------------exo2---------------------------------
+CIPHER:
+
+gcxobwryv ib ogx tb syiib
+ypsyxg ib ogx tbv qmgzev
+t cpb wgqrp wrox qysyib
+g tbv obiybwv t roxrigpv
+vco cp xgeyv tb xcojcyb
+ib qrcsbox vb xorcsg zyv
+ab igyvvb g ebpvbo ig syb
+jcb wyobpx qbv tbcd gzyv
+ib obfgi wcx wrox mrppbxb
+oybp pb zgpjjcgyx gc wbvxyp
+
+PLAINTEXT :
+
+Autrefois le Rat de ville
+Invita le Rat des champs,
+D'une façon fort civile,
+A des reliefs d'Ortolans.
+Sur un Tapis de Turquie
+Le couvert se trouva mis.
+Je laisse à penser la vie
+Que firent ces deux amis.
+Le régal fut fort honnête,
+Rien ne manquait au festin;
+                                
